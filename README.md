@@ -1,6 +1,7 @@
 PDF Reader for Titanium
 =======
 This module wraps [PDF iOS Core](https://github.com/vfr/Reader) to give Titanium developers more options for displaying PDF files. PDF iOS Core is a fully featured reader, most options are included with this module. Source is provided, but also distributions inside the `dist` folder to get started quickly.
+![image](https://raw.githubusercontent.com/jhester/pdfreader-titanium/master/screen.png)
 
 Use the module like this:
 
