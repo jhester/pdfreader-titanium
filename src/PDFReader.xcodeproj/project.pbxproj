@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* ComJosiahPdfreaderModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComJosiahPdfreaderModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComJosiahPdfreaderModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComJosiahPdfreaderModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.m */; };
+		832A9FB717E656C100281F1C /* ReaderConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FA317E656C100281F1C /* ReaderConstants.h */; };
+		832A9FB817E656C100281F1C /* ReaderConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FA417E656C100281F1C /* ReaderConstants.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FB917E656C100281F1C /* ReaderDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FA517E656C100281F1C /* ReaderDocument.h */; };
+		832A9FBA17E656C100281F1C /* ReaderDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FA617E656C100281F1C /* ReaderDocument.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FBB17E656C100281F1C /* ReaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FA717E656C100281F1C /* ReaderViewController.h */; };
+		832A9FBC17E656C100281F1C /* ReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FA817E656C100281F1C /* ReaderViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FBD17E656C100281F1C /* ReaderMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FA917E656C100281F1C /* ReaderMainToolbar.h */; };
+		832A9FBE17E656C100281F1C /* ReaderMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FAA17E656C100281F1C /* ReaderMainToolbar.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FBF17E656C100281F1C /* ReaderMainPagebar.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FAB17E656C100281F1C /* ReaderMainPagebar.h */; };
+		832A9FC017E656C100281F1C /* ReaderMainPagebar.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FAC17E656C100281F1C /* ReaderMainPagebar.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FC117E656C100281F1C /* ReaderContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FAD17E656C100281F1C /* ReaderContentView.h */; };
+		832A9FC217E656C100281F1C /* ReaderContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FAE17E656C100281F1C /* ReaderContentView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FC317E656C100281F1C /* ReaderContentPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FAF17E656C100281F1C /* ReaderContentPage.h */; };
+		832A9FC417E656C100281F1C /* ReaderContentPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FB017E656C100281F1C /* ReaderContentPage.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FC517E656C100281F1C /* ReaderContentTile.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FB117E656C100281F1C /* ReaderContentTile.h */; };
+		832A9FC617E656C100281F1C /* ReaderContentTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FB217E656C100281F1C /* ReaderContentTile.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FC717E656C100281F1C /* ThumbsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FB317E656C100281F1C /* ThumbsViewController.h */; };
+		832A9FC817E656C100281F1C /* ThumbsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FB417E656C100281F1C /* ThumbsViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FC917E656C100281F1C /* ThumbsMainToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FB517E656C100281F1C /* ThumbsMainToolbar.h */; };
+		832A9FCA17E656C100281F1C /* ThumbsMainToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FB617E656C100281F1C /* ThumbsMainToolbar.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FDF17E656DF00281F1C /* CGPDFDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FCB17E656DF00281F1C /* CGPDFDocument.h */; };
+		832A9FE017E656DF00281F1C /* CGPDFDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FCC17E656DF00281F1C /* CGPDFDocument.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FE117E656DF00281F1C /* ReaderDocumentOutline.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FCD17E656DF00281F1C /* ReaderDocumentOutline.h */; };
+		832A9FE217E656DF00281F1C /* ReaderDocumentOutline.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FCE17E656DF00281F1C /* ReaderDocumentOutline.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FE317E656DF00281F1C /* ReaderThumbRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FCF17E656DF00281F1C /* ReaderThumbRequest.h */; };
+		832A9FE417E656DF00281F1C /* ReaderThumbRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FD017E656DF00281F1C /* ReaderThumbRequest.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FE517E656DF00281F1C /* ReaderThumbCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FD117E656DF00281F1C /* ReaderThumbCache.h */; };
+		832A9FE617E656DF00281F1C /* ReaderThumbCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FD217E656DF00281F1C /* ReaderThumbCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FE717E656DF00281F1C /* ReaderThumbQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FD317E656DF00281F1C /* ReaderThumbQueue.h */; };
+		832A9FE817E656DF00281F1C /* ReaderThumbQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FD417E656DF00281F1C /* ReaderThumbQueue.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FE917E656DF00281F1C /* ReaderThumbFetch.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FD517E656DF00281F1C /* ReaderThumbFetch.h */; };
+		832A9FEA17E656DF00281F1C /* ReaderThumbFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FD617E656DF00281F1C /* ReaderThumbFetch.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FEB17E656DF00281F1C /* ReaderThumbRender.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FD717E656DF00281F1C /* ReaderThumbRender.h */; };
+		832A9FEC17E656DF00281F1C /* ReaderThumbRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FD817E656DF00281F1C /* ReaderThumbRender.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FED17E656DF00281F1C /* ReaderThumbsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FD917E656DF00281F1C /* ReaderThumbsView.h */; };
+		832A9FEE17E656DF00281F1C /* ReaderThumbsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FDA17E656DF00281F1C /* ReaderThumbsView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FEF17E656DF00281F1C /* ReaderThumbView.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FDB17E656DF00281F1C /* ReaderThumbView.h */; };
+		832A9FF017E656DF00281F1C /* ReaderThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FDC17E656DF00281F1C /* ReaderThumbView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FF117E656DF00281F1C /* UIXToolbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 832A9FDD17E656DF00281F1C /* UIXToolbarView.h */; };
+		832A9FF217E656DF00281F1C /* UIXToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 832A9FDE17E656DF00281F1C /* UIXToolbarView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		832A9FF917E6980500281F1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832A9FF817E6980500281F1C /* UIKit.framework */; };
+		832A9FFB17E6981700281F1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832A9FFA17E6981700281F1C /* CoreGraphics.framework */; };
+		832A9FFD17E6981B00281F1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832A9FFC17E6981B00281F1C /* QuartzCore.framework */; };
+		832A9FFF17E6982700281F1C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832A9FFE17E6982700281F1C /* ImageIO.framework */; };
+		832AA00117E6983700281F1C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832AA00017E6983700281F1C /* MessageUI.framework */; };
+		AA747D9F0F9514B9006C5449 /* ComJosiahPdfreader_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComJosiahPdfreader_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = PDFReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* ComJosiahPdfreaderModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComJosiahPdfreaderModule.h; path = Classes/ComJosiahPdfreaderModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComJosiahPdfreaderModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComJosiahPdfreaderModule.m; path = Classes/ComJosiahPdfreaderModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ComJosiahPdfreaderModuleAssets.h; path = Classes/ComJosiahPdfreaderModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ComJosiahPdfreaderModuleAssets.m; path = Classes/ComJosiahPdfreaderModuleAssets.m; sourceTree = "<group>"; };
+		832A9FA317E656C100281F1C /* ReaderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderConstants.h; sourceTree = "<group>"; };
+		832A9FA417E656C100281F1C /* ReaderConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderConstants.m; sourceTree = "<group>"; };
+		832A9FA517E656C100281F1C /* ReaderDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocument.h; sourceTree = "<group>"; };
+		832A9FA617E656C100281F1C /* ReaderDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocument.m; sourceTree = "<group>"; };
+		832A9FA717E656C100281F1C /* ReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderViewController.h; sourceTree = "<group>"; };
+		832A9FA817E656C100281F1C /* ReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderViewController.m; sourceTree = "<group>"; };
+		832A9FA917E656C100281F1C /* ReaderMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainToolbar.h; sourceTree = "<group>"; };
+		832A9FAA17E656C100281F1C /* ReaderMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainToolbar.m; sourceTree = "<group>"; };
+		832A9FAB17E656C100281F1C /* ReaderMainPagebar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderMainPagebar.h; sourceTree = "<group>"; };
+		832A9FAC17E656C100281F1C /* ReaderMainPagebar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderMainPagebar.m; sourceTree = "<group>"; };
+		832A9FAD17E656C100281F1C /* ReaderContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentView.h; sourceTree = "<group>"; };
+		832A9FAE17E656C100281F1C /* ReaderContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentView.m; sourceTree = "<group>"; };
+		832A9FAF17E656C100281F1C /* ReaderContentPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentPage.h; sourceTree = "<group>"; };
+		832A9FB017E656C100281F1C /* ReaderContentPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentPage.m; sourceTree = "<group>"; };
+		832A9FB117E656C100281F1C /* ReaderContentTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderContentTile.h; sourceTree = "<group>"; };
+		832A9FB217E656C100281F1C /* ReaderContentTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderContentTile.m; sourceTree = "<group>"; };
+		832A9FB317E656C100281F1C /* ThumbsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsViewController.h; sourceTree = "<group>"; };
+		832A9FB417E656C100281F1C /* ThumbsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsViewController.m; sourceTree = "<group>"; };
+		832A9FB517E656C100281F1C /* ThumbsMainToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbsMainToolbar.h; sourceTree = "<group>"; };
+		832A9FB617E656C100281F1C /* ThumbsMainToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbsMainToolbar.m; sourceTree = "<group>"; };
+		832A9FCB17E656DF00281F1C /* CGPDFDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGPDFDocument.h; sourceTree = "<group>"; };
+		832A9FCC17E656DF00281F1C /* CGPDFDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGPDFDocument.m; sourceTree = "<group>"; };
+		832A9FCD17E656DF00281F1C /* ReaderDocumentOutline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderDocumentOutline.h; sourceTree = "<group>"; };
+		832A9FCE17E656DF00281F1C /* ReaderDocumentOutline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderDocumentOutline.m; sourceTree = "<group>"; };
+		832A9FCF17E656DF00281F1C /* ReaderThumbRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRequest.h; sourceTree = "<group>"; };
+		832A9FD017E656DF00281F1C /* ReaderThumbRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRequest.m; sourceTree = "<group>"; };
+		832A9FD117E656DF00281F1C /* ReaderThumbCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbCache.h; sourceTree = "<group>"; };
+		832A9FD217E656DF00281F1C /* ReaderThumbCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbCache.m; sourceTree = "<group>"; };
+		832A9FD317E656DF00281F1C /* ReaderThumbQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbQueue.h; sourceTree = "<group>"; };
+		832A9FD417E656DF00281F1C /* ReaderThumbQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbQueue.m; sourceTree = "<group>"; };
+		832A9FD517E656DF00281F1C /* ReaderThumbFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbFetch.h; sourceTree = "<group>"; };
+		832A9FD617E656DF00281F1C /* ReaderThumbFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbFetch.m; sourceTree = "<group>"; };
+		832A9FD717E656DF00281F1C /* ReaderThumbRender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbRender.h; sourceTree = "<group>"; };
+		832A9FD817E656DF00281F1C /* ReaderThumbRender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbRender.m; sourceTree = "<group>"; };
+		832A9FD917E656DF00281F1C /* ReaderThumbsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbsView.h; sourceTree = "<group>"; };
+		832A9FDA17E656DF00281F1C /* ReaderThumbsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbsView.m; sourceTree = "<group>"; };
+		832A9FDB17E656DF00281F1C /* ReaderThumbView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderThumbView.h; sourceTree = "<group>"; };
+		832A9FDC17E656DF00281F1C /* ReaderThumbView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReaderThumbView.m; sourceTree = "<group>"; };
+		832A9FDD17E656DF00281F1C /* UIXToolbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIXToolbarView.h; sourceTree = "<group>"; };
+		832A9FDE17E656DF00281F1C /* UIXToolbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIXToolbarView.m; sourceTree = "<group>"; };
+		832A9FF817E6980500281F1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		832A9FFA17E6981700281F1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		832A9FFC17E6981B00281F1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		832A9FFE17E6982700281F1C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		832AA00017E6983700281F1C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		AA747D9E0F9514B9006C5449 /* ComJosiahPdfreader_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComJosiahPdfreader_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libComJosiahPdfreader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libComJosiahPdfreader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832AA00117E6983700281F1C /* MessageUI.framework in Frameworks */,
+				832A9FFF17E6982700281F1C /* ImageIO.framework in Frameworks */,
+				832A9FFD17E6981B00281F1C /* QuartzCore.framework in Frameworks */,
+				832A9FFB17E6981700281F1C /* CoreGraphics.framework in Frameworks */,
+				832A9FF917E6980500281F1C /* UIKit.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libComJosiahPdfreader.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* PDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				832A9FA217E6564C00281F1C /* PDFCore */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = PDFReader;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				832AA00017E6983700281F1C /* MessageUI.framework */,
+				832A9FFE17E6982700281F1C /* ImageIO.framework */,
+				832A9FFC17E6981B00281F1C /* QuartzCore.framework */,
+				832A9FFA17E6981700281F1C /* CoreGraphics.framework */,
+				832A9FF817E6980500281F1C /* UIKit.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				24DE9E0F11C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComJosiahPdfreaderModule.h */,
+				24DD6CF81134B3F500162E58 /* ComJosiahPdfreaderModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* ComJosiahPdfreader_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		832A9FA217E6564C00281F1C /* PDFCore */ = {
+			isa = PBXGroup;
+			children = (
+				832A9FA317E656C100281F1C /* ReaderConstants.h */,
+				832A9FA417E656C100281F1C /* ReaderConstants.m */,
+				832A9FA517E656C100281F1C /* ReaderDocument.h */,
+				832A9FA617E656C100281F1C /* ReaderDocument.m */,
+				832A9FA717E656C100281F1C /* ReaderViewController.h */,
+				832A9FA817E656C100281F1C /* ReaderViewController.m */,
+				832A9FA917E656C100281F1C /* ReaderMainToolbar.h */,
+				832A9FAA17E656C100281F1C /* ReaderMainToolbar.m */,
+				832A9FAB17E656C100281F1C /* ReaderMainPagebar.h */,
+				832A9FAC17E656C100281F1C /* ReaderMainPagebar.m */,
+				832A9FAD17E656C100281F1C /* ReaderContentView.h */,
+				832A9FAE17E656C100281F1C /* ReaderContentView.m */,
+				832A9FAF17E656C100281F1C /* ReaderContentPage.h */,
+				832A9FB017E656C100281F1C /* ReaderContentPage.m */,
+				832A9FB117E656C100281F1C /* ReaderContentTile.h */,
+				832A9FB217E656C100281F1C /* ReaderContentTile.m */,
+				832A9FB317E656C100281F1C /* ThumbsViewController.h */,
+				832A9FB417E656C100281F1C /* ThumbsViewController.m */,
+				832A9FB517E656C100281F1C /* ThumbsMainToolbar.h */,
+				832A9FB617E656C100281F1C /* ThumbsMainToolbar.m */,
+				832A9FCB17E656DF00281F1C /* CGPDFDocument.h */,
+				832A9FCC17E656DF00281F1C /* CGPDFDocument.m */,
+				832A9FCD17E656DF00281F1C /* ReaderDocumentOutline.h */,
+				832A9FCE17E656DF00281F1C /* ReaderDocumentOutline.m */,
+				832A9FCF17E656DF00281F1C /* ReaderThumbRequest.h */,
+				832A9FD017E656DF00281F1C /* ReaderThumbRequest.m */,
+				832A9FD117E656DF00281F1C /* ReaderThumbCache.h */,
+				832A9FD217E656DF00281F1C /* ReaderThumbCache.m */,
+				832A9FD317E656DF00281F1C /* ReaderThumbQueue.h */,
+				832A9FD417E656DF00281F1C /* ReaderThumbQueue.m */,
+				832A9FD517E656DF00281F1C /* ReaderThumbFetch.h */,
+				832A9FD617E656DF00281F1C /* ReaderThumbFetch.m */,
+				832A9FD717E656DF00281F1C /* ReaderThumbRender.h */,
+				832A9FD817E656DF00281F1C /* ReaderThumbRender.m */,
+				832A9FD917E656DF00281F1C /* ReaderThumbsView.h */,
+				832A9FDA17E656DF00281F1C /* ReaderThumbsView.m */,
+				832A9FDB17E656DF00281F1C /* ReaderThumbView.h */,
+				832A9FDC17E656DF00281F1C /* ReaderThumbView.m */,
+				832A9FDD17E656DF00281F1C /* UIXToolbarView.h */,
+				832A9FDE17E656DF00281F1C /* UIXToolbarView.m */,
+			);
+			name = PDFCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* ComJosiahPdfreader_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComJosiahPdfreaderModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.h in Headers */,
+				832A9FB717E656C100281F1C /* ReaderConstants.h in Headers */,
+				832A9FB917E656C100281F1C /* ReaderDocument.h in Headers */,
+				832A9FBB17E656C100281F1C /* ReaderViewController.h in Headers */,
+				832A9FBD17E656C100281F1C /* ReaderMainToolbar.h in Headers */,
+				832A9FBF17E656C100281F1C /* ReaderMainPagebar.h in Headers */,
+				832A9FC117E656C100281F1C /* ReaderContentView.h in Headers */,
+				832A9FC317E656C100281F1C /* ReaderContentPage.h in Headers */,
+				832A9FC517E656C100281F1C /* ReaderContentTile.h in Headers */,
+				832A9FC717E656C100281F1C /* ThumbsViewController.h in Headers */,
+				832A9FC917E656C100281F1C /* ThumbsMainToolbar.h in Headers */,
+				832A9FDF17E656DF00281F1C /* CGPDFDocument.h in Headers */,
+				832A9FE117E656DF00281F1C /* ReaderDocumentOutline.h in Headers */,
+				832A9FE317E656DF00281F1C /* ReaderThumbRequest.h in Headers */,
+				832A9FE517E656DF00281F1C /* ReaderThumbCache.h in Headers */,
+				832A9FE717E656DF00281F1C /* ReaderThumbQueue.h in Headers */,
+				832A9FE917E656DF00281F1C /* ReaderThumbFetch.h in Headers */,
+				832A9FEB17E656DF00281F1C /* ReaderThumbRender.h in Headers */,
+				832A9FED17E656DF00281F1C /* ReaderThumbsView.h in Headers */,
+				832A9FEF17E656DF00281F1C /* ReaderThumbView.h in Headers */,
+				832A9FF117E656DF00281F1C /* UIXToolbarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* PDFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PDFReader" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFReader;
+			productName = PDFReader;
+			productReference = D2AAC07E0554694100DB518D /* libComJosiahPdfreader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PDFReader" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* PDFReader */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* PDFReader */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* ComJosiahPdfreaderModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComJosiahPdfreaderModuleAssets.m in Sources */,
+				832A9FB817E656C100281F1C /* ReaderConstants.m in Sources */,
+				832A9FBA17E656C100281F1C /* ReaderDocument.m in Sources */,
+				832A9FBC17E656C100281F1C /* ReaderViewController.m in Sources */,
+				832A9FBE17E656C100281F1C /* ReaderMainToolbar.m in Sources */,
+				832A9FC017E656C100281F1C /* ReaderMainPagebar.m in Sources */,
+				832A9FC217E656C100281F1C /* ReaderContentView.m in Sources */,
+				832A9FC417E656C100281F1C /* ReaderContentPage.m in Sources */,
+				832A9FC617E656C100281F1C /* ReaderContentTile.m in Sources */,
+				832A9FC817E656C100281F1C /* ThumbsViewController.m in Sources */,
+				832A9FCA17E656C100281F1C /* ThumbsMainToolbar.m in Sources */,
+				832A9FE017E656DF00281F1C /* CGPDFDocument.m in Sources */,
+				832A9FE217E656DF00281F1C /* ReaderDocumentOutline.m in Sources */,
+				832A9FE417E656DF00281F1C /* ReaderThumbRequest.m in Sources */,
+				832A9FE617E656DF00281F1C /* ReaderThumbCache.m in Sources */,
+				832A9FE817E656DF00281F1C /* ReaderThumbQueue.m in Sources */,
+				832A9FEA17E656DF00281F1C /* ReaderThumbFetch.m in Sources */,
+				832A9FEC17E656DF00281F1C /* ReaderThumbRender.m in Sources */,
+				832A9FEE17E656DF00281F1C /* ReaderThumbsView.m in Sources */,
+				832A9FF017E656DF00281F1C /* ReaderThumbView.m in Sources */,
+				832A9FF217E656DF00281F1C /* UIXToolbarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* PDFReader */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComJosiahPdfreader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComJosiahPdfreader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComJosiahPdfreader;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ComJosiahPdfreader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComJosiahPdfreader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComJosiahPdfreader;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/ComJosiahPdfreader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComJosiahPdfreader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComJosiahPdfreader;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/ComJosiahPdfreader.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ComJosiahPdfreader_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ComJosiahPdfreader;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "PDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
